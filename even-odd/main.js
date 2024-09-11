@@ -1,17 +1,6 @@
-let x = Number(window.prompt("Enter the Number"));
 
-if(x%2 == 0 ){
-    if(x == 0){
-        console.log("Zero");
-        
-    }
-    else{
-        console.log("Even");
-        
-    }
-    
+function evenOdd(value){
+  return value % 2 == 0 ? "Even" : "Odd"
 }
-else {
-    console.log("odd");
-    
-}
+console.log(evenOdd(5)) //it result will be odd
+console.log(evenOdd(6)) //it result will be even
