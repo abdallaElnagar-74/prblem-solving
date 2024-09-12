@@ -5,4 +5,13 @@ function repeatStr(word, noOfRepeat) {
   }
   return str;
 }
-console.log(repeatStr("I", 10)); //IIIIIIIIII
+console.log(repeatStr("I", 10)); //way 1 
+
+//there is built in func call repeat we can use it
+
+function repeatStr1(w,n){
+
+    return w.repeat(n)
+}
+
+console.log(repeatStr("I",10)); //way 2
