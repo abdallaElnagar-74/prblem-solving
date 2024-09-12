@@ -14,4 +14,4 @@ function repeatStr1(w,n){
     return w.repeat(n)
 }
 
-console.log(repeatStr("I",10)); //way 2
+console.log(repeatStr1("I",10)); //way 2
