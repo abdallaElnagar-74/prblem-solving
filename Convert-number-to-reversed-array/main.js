@@ -1,6 +1,6 @@
 function digitize(n) {
-  let a = String(n);
-  return a
+  return n
+    .toString()
     .split("")
     .map((index) => Number(index))
     .toReversed();
