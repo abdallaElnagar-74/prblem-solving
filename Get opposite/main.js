@@ -1,6 +1,5 @@
-function getOpposite(n){
-return n*-1
-
+function getOpposite(n) {
+  return n * -1;
 }
 
-console.log(getOpposite('10'));
+console.log(getOpposite("10"));
